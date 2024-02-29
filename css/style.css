@@ -1,0 +1,50 @@
+/* Global CSS */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "work sans";
+}
+
+.container {
+  width: 1280px;
+}
+
+.btn-primary {
+  padding: 12px 25px;
+  background-color: #f15b22;
+  border: 1px solid #f15b22;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 20px;
+  transition: 0.5s;
+}
+
+.btn-primary:hover {
+  background-color: #efefef;
+  color: #f15b22;
+  transition: 0.5s;
+}
+
+/* Banner CSS */
+section {
+  background: url("../img/Banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content-box {
+  text-align: right;
+  height: 90vh;
+  padding-top: 250px;
+}
+.banner-title {
+  font-size: 65px;
+  font-weight: 600;
+  line-height: 4rem;
+}
+.banner-description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5rem;
+  margin: 20px 0px;
+}
