@@ -143,7 +143,7 @@ ul li i {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 60px 70px;
-  margin: 30px 0px;
+  margin: 80px 0px;
   border-radius: 20px;
 }
 .call-text {
@@ -169,4 +169,54 @@ ul li i {
   border: 1px solid #fff;
   color: #fff;
   transition: 0.5s;
+}
+
+/* Footer CSS */
+footer {
+  padding: 100px 0px;
+  background-color: #000;
+  color: #fff;
+}
+.footer-main {
+  display: flex;
+}
+.footer-logo {
+  font-size: 40px;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+.footer-left {
+  width: 80%;
+}
+p.footer-desctiption {
+  width: 50%;
+  line-height: 1.3rem;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+h6.footer-email {
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+h6.footer-phone {
+  font-weight: 400;
+  font-size: 16px;
+}
+.footer-right {
+  width: 10%;
+}
+h3.footer-right-title {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+input[type="email"] {
+  padding: 10px;
+  width: 195%;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  background: #fff0;
+  color: #fff;
+  margin-bottom: 10px;
 }
