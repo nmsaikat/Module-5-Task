@@ -86,7 +86,7 @@ body {
 }
 .right-content ul {
   list-style: none;
-  margin-left: 20px;
+  margin-left: 0px;
 }
 .right-content ul li {
   font-size: 16px;
@@ -97,4 +97,42 @@ body {
 ul li i {
   margin-right: 10px;
   color: #16d887;
+}
+
+/* My Plans CSS */
+.plans-title {
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 40px;
+}
+
+.box-info {
+  display: flex;
+  gap: 2em;
+  justify-content: space-between;
+  padding: 50px 0px;
+  text-align: center;
+}
+.box-1,
+.box-2,
+.box-3,
+.box-4 {
+  background-color: #fff;
+  padding: 40px 80px;
+  border-radius: 20px;
+  box-shadow: 0px 1px 5px 2px #eee;
+}
+.plan-icon img {
+  width: 80px;
+}
+
+.plan-title {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 0px;
+}
+
+.plan-description {
+  font-size: 14px;
+  font-weight: 400;
 }
